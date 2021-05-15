@@ -1,0 +1,42 @@
+
+.main-home {
+    padding: 330px 0px 250px 0;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+    color: #fff;
+    background: #000;
+    min-height: 400px;
+}
+.home-page-photo {
+    background-image: url(image/bg-5.jpg);
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    opacity: 0.50;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.bg-light{
+    background-color: black !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active{
+    color: aliceblue;
+}
+.navbar-light .navbar-brand{
+    color: yellow;
+}
+.btn-outline-success{
+    color: yellow;
+    border-bottom-color: yellow;
+    border-color: yellow;
+}
+.btn:hover{
+    background-color: yellow;
+}
